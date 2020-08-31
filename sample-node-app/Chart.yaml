@@ -1,0 +1,9 @@
+apiVersion: v2
+description: Sample Node App
+name: sample-node-app
+version: 1.0.2
+kubeVersion: ">= 1.14.0-0"
+maintainers:
+- name: PranayLonkar
+  email: pranaylonkar19@gmail.com
+icon: https://pranay-lonkar.github.io/helm-charts/logo.png

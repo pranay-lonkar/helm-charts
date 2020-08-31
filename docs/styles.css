@@ -1,0 +1,16 @@
+.main-page {
+    color: #000;
+    /* background: #3E8ACC; */
+    padding: 20px;
+}
+
+.intro-text {
+    /* text-align: center; */
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+}
+
+.body-text {
+    font-size: 20px;
+}

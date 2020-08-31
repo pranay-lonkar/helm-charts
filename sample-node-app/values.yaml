@@ -1,0 +1,7 @@
+imageRepository: pranaylonkar19/sample-node-app
+imageTag: latest
+imagePullPolicy: Always
+nodeSelector: {}
+affinity: {}
+priorityClassName: ""
+tolerations: []

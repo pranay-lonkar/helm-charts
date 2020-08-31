@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-node-app
+  labels:
+    chart: "sample-node-app"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sample-node-app
+  template:
+    metadata:
+      labels:
+        app: sample-node-app
+    spec:
+      {{- if .Values.affinity }}
+      affinity:
+{{ toYaml .Values.affinity | indent 8 }}
+      {{- end }}
+      {{- if .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml .Values.nodeSelector | indent 8 }}
+      {{- end }}
+      {{- if .Values.priorityClassName }}
+      priorityClassName: {{ .Values.priorityClassName }}
+      {{- end }}
+      {{- if .Values.tolerations }}
+      tolerations:
+        {{- range .Values.tolerations }}
+        - key: {{ .key | quote }}
+          value: {{ .value | quote }}
+          operator: {{ .operator | quote }}
+          effect: {{ .effect | quote }}
+          tolerationSeconds: {{ .tolerationSeconds }}
+        {{- end }}
+      {{- end }}
+      containers:
+        - name: sample-node-app
+          image: "{{ .Values.imageRepository }}:{{ default "latest" .Values.imageTag }}"
+          imagePullPolicy: {{ .Values.imagePullPolicy }}

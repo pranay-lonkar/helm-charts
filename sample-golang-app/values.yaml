@@ -1,0 +1,7 @@
+imageRepository: pranaylonkar19/sample-golang-app
+imageTag: latest
+imagePullPolicy: Always
+nodeSelector: {}
+affinity: {}
+priorityClassName: ""
+tolerations: []

@@ -1,0 +1,81 @@
+apiVersion: v1
+entries:
+  sample-golang-app:
+  - apiVersion: v2
+    created: "2020-08-31T10:32:32.066745+05:30"
+    description: Sample Golang App
+    digest: 7040e32afe6459ba204745b14f1be6a2c8365dac0318ad3642f96a6df2cf8f09
+    icon: https://pranay-lonkar.github.io/helm-charts/logo.png
+    kubeVersion: '>= 1.14.0-0'
+    maintainers:
+    - email: pranaylonkar19@gmail.com
+      name: PranayLonkar
+    name: sample-golang-app
+    urls:
+    - https://pranay-lonkar.github.io/helm-charts/sample-golang-app-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    created: "2020-08-31T10:32:32.066274+05:30"
+    description: Sample Golang App
+    digest: 4b49aec1de478b378e7b01b0cde77e6d625b7d381d85f6278fb5610f40d1be29
+    icon: https://pranay-lonkar.github.io/helm-charts/logo.png
+    kubeVersion: '>= 1.14.0-0'
+    maintainers:
+    - email: pranaylonkar19@gmail.com
+      name: PranayLonkar
+    name: sample-golang-app
+    urls:
+    - https://pranay-lonkar.github.io/helm-charts/sample-golang-app-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    created: "2020-08-31T10:32:32.065334+05:30"
+    description: Sample Golang App
+    digest: a7c9bb120d2e6dd63db6be603104f392c676d7970aaafbc84c1b7bfa4ab56b98
+    kubeVersion: '>= 1.14.0-0'
+    maintainers:
+    - email: pranaylonkar19@gmail.com
+      name: PranayLonkar
+    name: sample-golang-app
+    urls:
+    - https://pranay-lonkar.github.io/helm-charts/sample-golang-app-1.0.0.tgz
+    version: 1.0.0
+  sample-node-app:
+  - apiVersion: v2
+    created: "2020-08-31T10:32:32.068935+05:30"
+    description: Sample Node App
+    digest: 0bcaf15bbb45a312d04d4853d338207bcb1cea9f1e363164f00e22a91600bd0a
+    icon: https://pranay-lonkar.github.io/helm-charts/logo.png
+    kubeVersion: '>= 1.14.0-0'
+    maintainers:
+    - email: pranaylonkar19@gmail.com
+      name: PranayLonkar
+    name: sample-node-app
+    urls:
+    - https://pranay-lonkar.github.io/helm-charts/sample-node-app-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    created: "2020-08-31T10:32:32.068371+05:30"
+    description: Sample Node App
+    digest: 073b50c7c9137d82b1096456fd827d905caecff1ab46e507cf30cecf08f84969
+    icon: https://pranay-lonkar.github.io/helm-charts/logo.png
+    kubeVersion: '>= 1.14.0-0'
+    maintainers:
+    - email: pranaylonkar19@gmail.com
+      name: PranayLonkar
+    name: sample-node-app
+    urls:
+    - https://pranay-lonkar.github.io/helm-charts/sample-node-app-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    created: "2020-08-31T10:32:32.067584+05:30"
+    description: Sample Node App
+    digest: ef5aeebcc4a4d7f1e54493172f70c9e900d3b3ad027a39a577e97ecfd058f11e
+    kubeVersion: '>= 1.14.0-0'
+    maintainers:
+    - email: pranaylonkar19@gmail.com
+      name: PranayLonkar
+    name: sample-node-app
+    urls:
+    - https://pranay-lonkar.github.io/helm-charts/sample-node-app-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-08-31T10:32:32.063704+05:30"
