@@ -27,13 +27,7 @@ spec:
       {{- end }}
       {{- if .Values.tolerations }}
       tolerations:
-        {{- range .Values.tolerations }}
-        - key: {{ .key | quote }}
-          value: {{ .value | quote }}
-          operator: {{ .operator | quote }}
-          effect: {{ .effect | quote }}
-          tolerationSeconds: {{ .tolerationSeconds }}
-        {{- end }}
+      {{- template "golang.tolerations" . }}
       {{- end }}
       containers:
         - name: sample-golang-app
